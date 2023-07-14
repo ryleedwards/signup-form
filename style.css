@@ -110,6 +110,12 @@ summary,
   justify-content: center;
 }
 
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 8px;
+}
+
 #photo-credit {
   font-size: 1.5rem;
   padding-bottom: 12px;
