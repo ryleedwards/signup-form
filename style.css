@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 /* BEGIN BOILERPLATE */
 *,
 *::before,
@@ -72,3 +74,9 @@ summary,
   outline: none;
 }
 /* END BOILERPLATE */
+
+*,
+*::after,
+*::before {
+  font-family: "Open Sans", sans-serif;
+}
