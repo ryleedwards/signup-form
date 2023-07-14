@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+@font-face {
+  font-family: Norse Bold;
+  src: url(Norse-Bold.otf);
+}
+
 /* BEGIN BOILERPLATE */
 *,
 *::before,
@@ -100,7 +105,6 @@ summary,
 }
 
 .logo-container {
-  font-size: 6rem;
   background-color: rgb(0, 0, 0, 50%);
   width: 100%;
   height: 96px;
@@ -114,6 +118,11 @@ summary,
   max-width: 100%;
   max-height: 100%;
   padding: 8px;
+}
+
+.logo-text {
+  font-family: Norse Bold;
+  font-size: 8rem;
 }
 
 #photo-credit {
