@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @font-face {
   font-family: Norse Bold;
@@ -68,9 +68,9 @@ label,
 button,
 select,
 summary,
-[type="radio"],
-[type="submit"],
-[type="checkbox"] {
+[type='radio'],
+[type='submit'],
+[type='checkbox'] {
   cursor: pointer;
 }
 
@@ -84,7 +84,11 @@ summary,
 *::after,
 *::before {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
 }
 
 .sidebar-container {
@@ -128,4 +132,21 @@ summary,
 #photo-credit {
   font-size: 1.5rem;
   padding-bottom: 12px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-top {
+  background-color: blue;
+}
+
+.main-middle {
+}
+
+.main-bottom {
 }
